@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "test_word_count_map",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py https://www.dropbox.com/s/pbqh8qyi1f74upi/test_main.py?dl=1",
+      "run": "pytest test_main.py::test_word_count_map",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 3
+    },
+    {
+      "name": "test_word_count_reduce",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py https://www.dropbox.com/s/pbqh8qyi1f74upi/test_main.py?dl=1",
+      "run": "pytest test_main.py::test_word_count_reduce",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "test_word_count",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py https://www.dropbox.com/s/pbqh8qyi1f74upi/test_main.py?dl=1",
+      "run": "pytest test_main.py::test_word_count",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "test_sentiment_map",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py https://www.dropbox.com/s/pbqh8qyi1f74upi/test_main.py?dl=1",
+      "run": "pytest test_main.py::test_sentiment_map",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "test_sentiment",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py https://www.dropbox.com/s/pbqh8qyi1f74upi/test_main.py?dl=1",
+      "run": "pytest test_main.py::test_sentiment",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "test_word_count_reduce_uses_reduce",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py https://www.dropbox.com/s/pbqh8qyi1f74upi/test_main.py?dl=1",
+      "run": "pytest test_main.py::test_word_count_reduce_uses_reduce",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "test_sentiment_map_2",
+      "setup": "sudo -H pip3 install pytest; wget -O test_main.py https://www.dropbox.com/s/pbqh8qyi1f74upi/test_main.py?dl=1",
+      "run": "pytest test_main.py::test_sentiment_map_2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}
